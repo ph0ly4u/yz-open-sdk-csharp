@@ -18,7 +18,7 @@ using YZOpenSDK;
 ```
 
 ## 如何使用？（参考README.md）
-### 调用kdt.item.add接口
+### 调用youzan.item.create接口
 
 ```
 Auth auth = new Sign("${app_id}", "${app_secret}");
@@ -29,17 +29,18 @@ dict.Add("price", 1.0);
 dict.Add("post_fee", 1.0);
 
 List<KeyValuePair<string, string>> files = new List<KeyValuePair<string, string>>();
+// 仅作演示用，实际该API不支持传文件，具体参考API说明
 files.Add(new KeyValuePair<string, string>("images[]", "/xx/xx/1.jpg"));
 
-var result = yzClient.Invoke("kdt.item.add", "1.0.0", "post", dict, files);
+var result = yzClient.Invoke("youzan.item.create", "3.0.0", "post", dict, files);
 Console.WriteLine(result);
 ```
 
-### 调用kdt.shop.basic.get接口
+### 调用youzan.items.onsale.get接口
 
 ```
 Auth auth = new Token("xxx");
-var result = yzClient.Invoke("kdt.items.onsale.get", "1.0.0", "get", dict, null);
+var result = yzClient.Invoke("youzan.items.onsale.get", "3.0.0", "get", dict, null);
 Console.WriteLine(result);
 ```
 
