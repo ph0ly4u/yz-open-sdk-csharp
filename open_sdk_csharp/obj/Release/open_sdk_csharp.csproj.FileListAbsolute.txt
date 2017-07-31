@@ -1,0 +1,3 @@
+/Users/ph0ly/gitlab/open-sdk/open_sdk_csharp/open_sdk_csharp/bin/Release/open_sdk_csharp.dll
+/Users/ph0ly/gitlab/open-sdk/open_sdk_csharp/open_sdk_csharp/obj/Release/open_sdk_csharp.csproj.CoreCompileInputs.cache
+/Users/ph0ly/gitlab/open-sdk/open_sdk_csharp/open_sdk_csharp/obj/Release/open_sdk_csharp.dll
