@@ -1,0 +1,16 @@
+##
+## Ignore folders
+.vs
+bin
+obj
+packages
+target
+
+##
+## Ignore file types
+*.user
+*.lock.json
+
+##
+## Ignore files
+Project_Readme.html
